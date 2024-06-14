@@ -1,8 +1,6 @@
 
-
 #ifdef __cplusplus
-extern "C"
-{
+extern "C" {
 #endif
 
 #include "../lib/libmessage.h"
@@ -11,10 +9,9 @@ extern "C"
 }
 #endif
 
+int main (int argc, char** argv) {
 
-int main(int argc, char** argv){
-
-    printMessage();
+    printMessage ();
 
     return 0;
 }
