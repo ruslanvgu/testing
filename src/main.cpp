@@ -11,7 +11,7 @@ extern "C" {
 
 int main (int argc, char** argv) {
 
-    printMessage ();
+    printMessage (); // using function from static library libmessage
 
     return 0;
 }
