@@ -9,6 +9,8 @@ extern "C" {
 }
 #endif
 
+//func1
+
 int main (int argc, char** argv) {
 
     printMessage (); // using function from static library libmessage
